@@ -46,7 +46,7 @@ p {
     color: #fff4ff;
 }
 
-/* .title, .logo {
+.title, .logo {
     float: left;
     padding: 3em 3em 3em 0;
 }
@@ -116,7 +116,7 @@ p {
 
 .nav-toggle {
     display: none;
-} */
+}
 
 .container {
     max-width: 35em;
