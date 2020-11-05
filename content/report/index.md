@@ -1,5 +1,5 @@
 ---
-Title: Report
+Title: Rapport
 Description: The course report page
 ---
 

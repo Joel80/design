@@ -1,5 +1,5 @@
 ---
-Title: Example
+Title: Exempel
 Description: Markdown examples.
 # hidden: true
 ---
