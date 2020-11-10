@@ -1,7 +1,7 @@
 ---
 Title: Dokumentation
 Description: Documentation that came with Pico.
-# hidden: true
+hidden: true
 ---
 
 ## Welcome to Pico
