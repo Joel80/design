@@ -1,0 +1,489 @@
+/**ALL ELEMENTS**/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+/**HIDDEN**/
+
+.hidden {
+    display: none !important;
+}
+
+/*** SCREEN READERS ***/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+/*** SLIDERS ***/
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+/*** BASIC LAYOUT ***/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.widescreen .container {
+    max-width: 72em;
+}
+
+/* very ugly overflow fix, avoid this whenever possible! */
+
+.main .container {
+    overflow-x: auto;
+}
+
+/*** BASIC LAYOUT: HEADER ***/
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: $main-back-color;
+}
+
+.title,
+.logo {
+    float: left;
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    margin: 0;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    height: 10.8em;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+}
+
+.logo img {
+    min-width: 4.8em;
+    border-radius: 35%;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+
+.nav {
+    padding: 3em;
+    text-align: left;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin-left: 1em;
+            padding: 0;
+            font-weight: bold;
+        }
+    }
+
+    a {
+        color: $main-text-color;
+    }
+
+    a:hover {
+        color: $nav-a-hover-color;
+    }
+
+    .active a {
+        color: $nav-a-hover-color;
+    }
+
+}
+
+/* .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav a,
+.nav-toggle {
+    color: $main-text-color;
+}
+
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: $nav-a-hover-color;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+} */
+
+.nav-toggle:hover {
+    color: $nav-a-hover-color;
+}
+
+.nav-toggle:hover {
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/* IE8 + IE9 clearfix */
+
+.header>.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/***BASIC LAYOUT MAIN ***/
+
+.main {
+    flex: 1 0 auto;
+    padding: 5em 0 4em;
+    background-color: $main-back-color;
+    color: $main-text-color;
+}
+
+.main-article {
+    width: $main-article-width;
+    float: left;
+}
+
+.aside {
+    flex: 1 0 auto;
+    width: $aside-width;
+    padding: 1em;
+    margin: 0em;
+    float: right;
+    background-color: $second-back-color;
+    border-radius: 20%;
+    
+}
+
+.resource {
+
+    h2 {
+        text-align: left;
+    }
+
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    li {
+        padding: 0.5em;
+        text-align: left;
+    }
+
+    a {
+        padding: 0;
+        margin: 0;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+/*** BASIC LAYOUT: FOOTER ***/
+
+.site-footer {
+    flex: 0 0 auto;
+    background-color: $second-back-color;
+    color: $main-text-color;
+}
+
+.site-footer a {
+    color: $main-text-color;
+}
+
+.site-footer a:hover {
+    color: $a-hover-color;
+}
+
+.site-footer p {
+    margin: 1em;
+    padding: 3em 0;
+}
+
+.site-footer .social {
+    float: right;
+    padding: 1.5em 0 1.5em 1em;
+    font-size: 2rem;
+}
+
+/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+
+@media (max-width: 767px) {
+    .title,
+    .logo,
+    .tagline {
+        padding: 2em 1.5em 2em 0;
+    }
+
+    .logo {
+        height: 8.8em;
+    }
+
+    .nav {
+        clear: both;
+        padding: 0;
+    }
+
+    .nav ul {
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+
+    .main {
+        padding: 2em 0 1em;
+    }
+
+    .main-article,
+    .aside {
+        float: none;
+        width: $max-width;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .site-footer p {
+        padding: 1em 0;
+    }
+
+    .site-footer .social {
+        padding: 0.5em 0 0.5em 1em;
+    }
+}
+
+/*** TYPOGRAPHY ***/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    /* font-family: sans-serif; */
+    font-size: 1rem;
+    line-height: 1.6;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    color: $main-text-color;
+}
+
+p,
+li {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p,
+.table-responsive,
+ol,
+ul {
+    margin-bottom: 1em;
+}
+
+a {
+    color: $a-color;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+a:hover {
+    color: $a-hover-color;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    color: $heading-color;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*** UTILITIES ***/
+ 
+.auto {
+    margin: auto;
+    text-align: center;
+}
+
+.flash-img {
+    height: 100%;
+}
+
+.me-img {
+    width: 40%;
+    float: right;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        display: none;
+    }
+}
+
+/*** LISTS ***/
+
+ol,
+ul {
+    list-style-position: outside;
+    padding-left: 1.5em;
+}
+
+ol {
+    padding-left: 2.5em;
+}
+
+li {
+    padding-left: 0.5em;
+}
+
+/* Firefox input size fix */
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+.alert {
+    background-color: $base-color;
+    border: 1px solid $border-dark;
+    height: $alert-box-size/2;
+    width: $alert-box-size;
+}

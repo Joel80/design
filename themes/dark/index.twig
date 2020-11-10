@@ -17,7 +17,7 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" />  
+
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
@@ -40,13 +40,13 @@
                     </a>
                 </div>
             {% endif %}
-            <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+            <div {{ pages["_meta"].meta.tagline ? 'class="title tagline"' : 'class="title"' }}>
                 <a href="{{ "index"|link }}">
                     <h1>{{ site_title }}</h1>
                     {{ pages["_meta"].meta.tagline|markdown }}
                 </a>
             </div>
-            <div class="nav">
+            <nav class="nav">
                 <div id="nav" role="navigation" tabindex="-1">
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
@@ -56,27 +56,42 @@
                         {% endfor %}
                     </ul>
                 </div>
-            </div>
+            </nav>
             <div class="flash-region">
                 <img class="flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash.jpg?sc=banner1&a=40,0,0,0" alt="Flash-image">
+                <p><span>Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
             </div>
-            <p><span>Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
         </div>
     </header>
-        
+
     <div class="main" id="main" role="main">
         <div class="container">
-            {{content}}
+            <article class="main-article">
+                {{content}}
+            </article>
+            <aside class="aside resource">
+                <h2>Resurser</h2>
+                <ul>
+                    {% for resources in pages["_meta"].meta.resources %}
+                        <li>
+                            <a href="{{ resources.url }}" title="{{ resources.title }}" role="button">
+                                <i class="{{ resources.icon }}" aria-hidden="true"></i>
+                                <span class="sr-only">{{ resource.title }}</span>
+                                {{ resources.name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </aside>
         </div>
     </div>
 
     <footer class="site-footer">
         <div class="container">
             <div class="social">
-                <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
-                {% for social in pages["_meta"].meta.social %}
+               {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                        <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
+                        <i class="{{ social.icon }}" aria-hidden="true"></i>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
                 {% endfor %}

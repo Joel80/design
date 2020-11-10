@@ -1,0 +1,18 @@
+/**COLORS**/
+$heading-color: rgba(255, 255, 255, 0.8) !default;
+$main-text-color: rgba(255, 255, 255, 0.6) !default;
+$main-back-color: #121212 !default; 
+$second-back-color: #2e1334 !default;
+$nav-a-color:  #aaa !default;
+$nav-a-hover-color: #fff !default;
+$nav-a-active-color: #fff !default;
+$a-color: #fff;
+$a-hover-color: #fff;
+$base-color: blue !default;
+$border-dark: rgba ($base-color, 0.88) !default;
+
+/**SIZES**/
+$alert-box-size: 600px !default;
+$main-article-width: 600/960*100%;
+$aside-width: 300/960*100%;
+$max-width: 100%;
