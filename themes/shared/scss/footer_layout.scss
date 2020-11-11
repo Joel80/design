@@ -1,0 +1,26 @@
+/*** BASIC LAYOUT: FOOTER ***/
+
+.site-footer {
+    flex: 0 0 auto;
+    background-color: $second-back-color;
+    color: $main-text-color;
+}
+
+.site-footer a {
+    color: $main-text-color;
+}
+
+.site-footer a:hover {
+    color: $a-hover-color;
+}
+
+.site-footer p {
+    margin: 1em;
+    padding: 3em 0;
+}
+
+.site-footer .social {
+    float: right;
+    padding: 1.5em 0 1.5em 1em;
+    font-size: 2rem;
+}

@@ -6,10 +6,21 @@ $second-back-color: #2e1334 !default;
 $nav-a-color:  #aaa !default;
 $nav-a-hover-color: #fff !default;
 $nav-a-active-color: #fff !default;
-$a-color: #fff;
-$a-hover-color: #fff;
+$a-color: darken(#fff, 5%) !default;
+$a-hover-color: #fff !default;
 $base-color: blue !default;
 $border-dark: rgba ($base-color, 0.88) !default;
+
+/***FONTS AND LINES***/
+$base-font-size: 1.1em;
+$line: 1.2;
+$line-height: $base-font-size * $line;
+$h1-font-size: 2rem;
+$h2-multiplier: 0.85;
+$h3-multiplier: 0.7;
+$h4-multiplier: 0.55;
+$h5-multiplier: 0.5;
+$h6-multiplier: 0.5;
 
 /**SIZES**/
 $alert-box-size: 600px !default;

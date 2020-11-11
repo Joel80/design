@@ -1,0 +1,44 @@
+/*** BASIC LAYOUT: HEADER ***/
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: $main-back-color;
+}
+
+.title,
+.logo {
+    float: left;
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    margin: 0;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    height: 10.8em;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+}
+
+.logo img {
+    min-width: 4.8em;
+    border-radius: 35%;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.header>.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}

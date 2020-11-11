@@ -1,0 +1,94 @@
+/*** TYPOGRAPHY ***/
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: $base-font-size;
+    line-height: $line-height;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    color: $main-text-color;
+}
+
+p,
+li {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p,
+.table-responsive,
+ol,
+ul {
+    margin-bottom: $line-height;
+}
+
+a {
+    color: $a-color;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+a:hover {
+    color: $a-hover-color;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: $line-height;
+    font-weight: bold;
+    color: $heading-color;
+}
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+h2 {
+    font-size: $h1-font-size*$h2-multiplier;
+}
+
+h3 {
+    font-size: $h1-font-size*$h3-multiplier;
+}
+
+h4 {
+    font-size: $h1-font-size*$h4-multiplier;
+}
+
+h5 {
+    font-size: $h1-font-size*$h5-multiplier;
+}
+
+h6 {
+    font-size: $h1-font-size*$h6-multiplier;
+    font-weight: normal;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+}

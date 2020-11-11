@@ -1,0 +1,72 @@
+/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+
+@media (max-width: 767px) {
+    .title,
+    .logo,
+    .tagline {
+        padding: 2em 1.5em 2em 0;
+    }
+
+    .logo {
+        height: 8.8em;
+    }
+
+    .nav {
+        clear: both;
+        padding: 0;
+    }
+
+    .nav ul {
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+
+    .main {
+        padding: 2em 0 1em;
+    }
+
+    .main-article,
+    .aside {
+        float: none;
+        width: $max-width;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .site-footer p {
+        padding: 1em 0;
+    }
+
+    .site-footer .social {
+        padding: 0.5em 0 0.5em 1em;
+    }
+
+    .logo img {
+        display: none;
+    }
+}
