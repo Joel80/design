@@ -373,13 +373,16 @@ template {
   transition: height 0.5s ease-in !important;
 }
 
+/*** FOCUS ***/
 *:focus {
   outline: 0;
 }
 
-.auto {
-  margin: auto;
-  text-align: center;
+/* Firefox input size fix */
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
 
 /*** BASIC LAYOUT ***/
