@@ -127,12 +127,14 @@ body {
         margin: 0;
         padding: 0;
 
-        li {
-            display: inline-block;
-            margin-left: 1em;
-            padding: 0;
-            font-weight: bold;
-        }
+       
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 1em;
+        padding: 0;
+        font-weight: bold;
     }
 
     a {
@@ -220,7 +222,7 @@ body {
     flex: 1 0 auto;
     width: $aside-width;
     padding: 1em;
-    margin: 0em;
+    margin: 0;
     float: right;
     background-color: $second-back-color;
     border-radius: 20%;
@@ -228,7 +230,6 @@ body {
 }
 
 .resource {
-
     h2 {
         text-align: left;
     }

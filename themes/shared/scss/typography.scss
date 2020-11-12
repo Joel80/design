@@ -29,7 +29,8 @@ body {
 
 p,
 li {
-    text-align: justify;
+    text-align: left;
+    word-spacing: normal;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
@@ -44,7 +45,6 @@ ul {
 a {
     color: $a-color;
     text-decoration: none;
-    transition: color 0.2s ease-in;
 }
 
 a:hover {
@@ -87,8 +87,4 @@ h6 {
     font-size: $h1-font-size*$h6-multiplier;
     font-weight: normal;
     font-style: italic;
-}
-
-img {
-    max-width: 100%;
 }

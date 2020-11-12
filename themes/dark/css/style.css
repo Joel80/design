@@ -402,6 +402,11 @@ body {
   margin: 0 auto;
 }
 
+.flash-region {
+  max-width: 48em;
+  max-height: 15em;
+}
+
 .widescreen .container {
   max-width: 72em;
 }
@@ -449,6 +454,7 @@ body {
   margin: 0.8rem 0;
 }
 
+/* IE8 + IE9 clearfix */
 .header > .container::after {
   content: "";
   display: block;
@@ -458,14 +464,14 @@ body {
 /***NAV STYLE***/
 .nav {
   padding: 3em;
-  text-align: left;
+  text-align: right;
 }
 .nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.nav ul li {
+.nav li {
   display: inline-block;
   margin-left: 1em;
   padding: 0;
@@ -510,7 +516,7 @@ body {
   flex: 1 0 auto;
   width: 31.25%;
   padding: 1.5em;
-  margin: 0em;
+  margin: 0;
   float: right;
   background-color: #2e1334;
   border-radius: 20%;
@@ -583,7 +589,7 @@ html {
 
 body {
   font-size: 1.1em;
-  line-height: 1.32em;
+  line-height: 1.54em;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
@@ -592,7 +598,8 @@ body {
 
 p,
 li {
-  text-align: justify;
+  text-align: left;
+  word-spacing: normal;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -601,13 +608,12 @@ p,
 .table-responsive,
 ol,
 ul {
-  margin-bottom: 1.32em;
+  margin-bottom: 1.54em;
 }
 
 a {
   color: #f2f2f2;
   text-decoration: none;
-  transition: color 0.2s ease-in;
 }
 
 a:hover {
@@ -621,7 +627,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 1.32em;
+  margin-bottom: 1.54em;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -658,6 +664,7 @@ img {
 
 .flash-img {
   height: 100%;
+  width: 100%;
 }
 
 .me-img {
@@ -666,6 +673,10 @@ img {
   border-radius: 50%;
   padding: 0.5em;
   margin: 0.5em;
+}
+
+.leaf-icon::before {
+  content: "🙚";
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/

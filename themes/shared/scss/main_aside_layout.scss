@@ -16,7 +16,7 @@
     flex: 1 0 auto;
     width: $aside-width;
     padding: 1.5em;
-    margin: 0em;
+    margin: 0;
     float: right;
     background-color: $second-back-color;
     border-radius: 20%;
@@ -24,7 +24,6 @@
 }
 
 .resource {
-
     h2 {
         text-align: left;
     }
