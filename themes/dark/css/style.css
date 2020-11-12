@@ -6,7 +6,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -6866,4 +6865,18 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap'); */
+@font-face {
+  font-family: "Roboto";
+  src: url("../../shared/fonts/Roboto/Roboto-Regular");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../shared/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../shared/fonts/Open_Sans/OpenSans-Bold.ttf");
 }

@@ -4,4 +4,17 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap'); */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../shared/fonts/Roboto/Roboto-Regular');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../shared/fonts/Open_Sans/OpenSans-Regular.ttf');
+} 
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../shared/fonts/Open_Sans/OpenSans-Bold.ttf');
+}
