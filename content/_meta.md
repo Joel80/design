@@ -9,7 +9,7 @@ Resources:
     - title: Länk till dbwebb
       name: dbwebb
       url: https://dbwebb.se/material
-      icon: fas fa-leaf
+      icon: leaf-icon
     - title: Länk till Unsplash
       name: Unsplash
       url: https://unsplash.com/
