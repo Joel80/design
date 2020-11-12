@@ -20,5 +20,7 @@ Som jag skrev i min förra rapport så är grundtanken med mitt tema att det ska
 ###Uppdelning av koden
 Inledningsvis under detta kmom så hade jag bara en "liten" uppdelning av kod - ungefär den uppdelning som följde på övningarna. D.v.s. en base.scss som laddar normalize, variables och layout. Min layout-fil var sedan en ganska stor fil som i princip såg ut och var uppdelad som min gamla style.css. En bit in i veckan valde jag dock att dela upp denna fil i flera mindre och i det sammanhanget också gå vidare i att rensa ut saker som jag inte behöver. Så nu har jag 9 .scss-filer som jag importerar in i layout.scss som sedan importeras i base.scss. Jag gillar möjligheten att dela upp koden på detta sätt, det ger bättre överblick i regel tycker jag. Sedan är det också, enligt min mening, en balansgång mellan små och lättlästa filer och att kunna få en snabb överblick eller hitta saker vilket kan bli svårare med många filer. Det kan också vara en utmaning att hitta en bra fil att lägga visa saker generella saker eller "fixar" i.
 
+###TIL
+Min TIL för detta kursmoment är absolut SASS. Inte så att jag har lärt mig allt om SASS men det har varit en ögonöppnare och jag gillar detta sätt arbeta strukturerat med CSS.
 
 
