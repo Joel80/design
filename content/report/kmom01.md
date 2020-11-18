@@ -1,8 +1,8 @@
 ---
 Title: Kmom01
-Description: Part 1
+Description: Min redovisning för kmom01
+Template: kmom
 ---
-
 ##Kmom01
 
 Ok - dags för första rapporten på design-kursen! Det har varit utmanande men också roligt att arbeta med detta kursmoment. Jag har lärt mig en del - inte minst om Git vilket jag trodde var det jag åtminstone skulle ha lite koll på redan från början.

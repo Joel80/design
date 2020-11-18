@@ -1,6 +1,7 @@
 ---
 Title: Kmom02
-Description: Part 2
+Description: Min redovisning för kmom02
+Template: kmom
 ---
 
 ##Kmom02
