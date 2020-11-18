@@ -402,8 +402,20 @@ body {
 }
 
 .flash-region {
-  max-width: 48em;
-  max-height: 15em;
+  max-width: 100%;
+  padding: 0 0.5em;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  /*  max-width: 100%;
+   max-height: 100%; */
+  /* background-image: url('../../../assets/img/marcel-knupfer-37wuETxVwTQ-unsplash.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+  /* display: grid;
+  align-items: left; */
 }
 
 .widescreen .container {
@@ -504,6 +516,7 @@ body {
   padding: 5em 0 4em;
   background-color: #121212;
   color: rgba(255, 255, 255, 0.6);
+  clear: both;
 }
 
 .main-article {
@@ -662,8 +675,8 @@ img {
 }
 
 .flash-img {
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .me-img {
@@ -675,7 +688,7 @@ img {
 }
 
 .leaf-icon::before {
-  content: "🙚";
+  content: "☆";
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
@@ -6867,6 +6880,119 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/*** report.scss ***/
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h2 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  display: grid;
+  text-align: left;
+  background-color: #2e1334;
+  border: 0.1em solid #2e1334;
+  grid-template-areas: "kmom-header" "kmom-content" "kmom-link";
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+  text-align: left;
+}
+
+.kmom-header {
+  padding: 0.5em;
+  background-color: #2e1334;
+  color: rgba(255, 255, 255, 0.6);
+  grid-row: 1/1;
+}
+
+.kmom-content {
+  padding: 0.5em;
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.6);
+  grid-row: 2/2;
+}
+
+.kmom-link {
+  padding: 0.5em;
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.6);
+  grid-row: 3/3;
+  text-align: right;
+}
+.kmom-link a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.kmom-link a:hover {
+  color: #fff;
+}
+
+.reportpage {
+  display: grid;
+  gap: 1em 1em;
+}
+.reportpage ul {
+  padding: 0;
+  list-style-type: none;
+}
+.reportpage li {
+  padding: 0.5em;
+  text-align: left;
+}
+.reportpage a {
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
+}
+.reportpage a:hover {
+  color: #fff;
+}
+
+.reportpage h2 {
+  grid-column: 2/2;
+  justify-self: center;
+}
+
+.report {
+  grid-column: 2/2;
+  padding: 1em;
+}
+
+.report-links {
+  grid-column: 1/1;
+  padding: 1em;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .landingpage h2 {
+    grid-column: span 1;
+  }
+
+  .kmom-box.project {
+    grid-column: span 1;
+  }
+
+  .report-links {
+    display: none;
+  }
+
+  .report {
+    grid-column: 1/1;
+    padding: 1em;
+  }
+}
+@media screen and (max-width: 260px) {
+  .kmom-link {
+    text-align: left;
+  }
+}
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap'); */
 @font-face {
   font-family: "Roboto";

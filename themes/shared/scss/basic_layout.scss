@@ -17,8 +17,9 @@ body {
 }
 
 .flash-region {
-    max-width: 48em;
-    max-height: 15em;
+    max-width: 100%;
+    padding: 0 0.5em;
+    margin: 0 auto;
 }
 
 .widescreen .container {
