@@ -21,7 +21,7 @@
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
 </head>
 
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -57,7 +57,7 @@
                 </div>
             </nav>
             <div class="flash-region">
-                <img class="flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
+                <img class="flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
                 <p><span class="photographer">Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
             </div>
         </div>
@@ -68,8 +68,12 @@
             <article class="main-article">
                 {{content}}
             </article>
-            <aside class="aside resource">
-                <h2>Resurser</h2>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+            <div class="footer-resource">
+                <h3>Resurser</h3>
                 <ul>
                     {% for resources in pages["_meta"].meta.resources %}
                         <li>
@@ -81,13 +85,14 @@
                         </li>
                     {% endfor %}
                 </ul>
-            </aside>
-        </div>
-    </div>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="social">
+            </div>
+            <div class="footer-about">
+                <p>
+                    Denna webbplats är skapad inom ramen
+                    för kursen <a href="https://dbwebb.se/kurser/design-v3">design</a> vid Blekinge tekniska högskola.
+                </p>
+            </div>
+            <div class="footer-social">
                {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button">
                         <i class="{{ social.icon }}" aria-hidden="true"></i>
@@ -95,11 +100,6 @@
                     </a>
                 {% endfor %}
             </div>
-            <p>
-                Denna webbplats är skapad inom ramen
-                för kursen <a href="https://dbwebb.se/kurser/design-v3">design</a> vid Blekinge tekniska högskola.
-            </p>
-        </div>
     </footer>
     <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>

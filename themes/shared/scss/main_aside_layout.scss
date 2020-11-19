@@ -9,44 +9,6 @@
 }
 
 .main-article {
-    width: $main-article-width;
-    float: left;
-}
-
-.aside {
     flex: 1 0 auto;
-    width: $aside-width;
-    padding: 1.5em;
-    margin: 0;
-    float: right;
-    background-color: $second-back-color;
-    border-radius: 20%;
-    
-}
-
-.resource {
-    h2 {
-        text-align: left;
-    }
-
-    ul {
-        padding: 0;
-        list-style-type: none;
-    }
-
-    li {
-        padding: 0.5em;
-        text-align: left;
-    }
-
-    a {
-        padding: 0;
-        margin: 0;
-        color: $main-text-color;
-    }
-
-    a:hover {
-        text-decoration: none;
-        color: $a-color;
-    }
+    width: 100%;
 }
