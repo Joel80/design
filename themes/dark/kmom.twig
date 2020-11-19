@@ -65,42 +65,51 @@
 
     <div class="main" id="main" role="main">
         <div class="container">
-            <article class="main-article">
-                {{content}}
-            </article>
+            <div class="reportpage">
+                <div class="report-links">
+                    <ul>
+                        {% for page in pages ("report") %}
+                            <li><a href="{{page.url}}">{{page.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="report">
+                    {{content}}
+                </div>
+            </div>
         </div>
     </div>
 
     <footer class="site-footer">
-            <div class="footer-resource">
-                <h3>Resurser</h3>
-                <ul>
-                    {% for resources in pages["_meta"].meta.resources %}
-                        <li>
-                            <a href="{{ resources.url }}" title="{{ resources.title }}" role="button">
-                                <i class="{{ resources.icon }}" aria-hidden="true"></i>
-                                <span class="sr-only">{{ resource.title }}</span>
-                                {{ resources.name }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div class="footer-about">
-                <p>
-                    Denna webbplats är skapad inom ramen
-                    för kursen <a href="https://dbwebb.se/kurser/design-v3">design</a> vid Blekinge tekniska högskola.
-                </p>
-            </div>
-            <div class="footer-social">
-               {% for social in pages["_meta"].meta.social %}
-                    <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                        <i class="{{ social.icon }}" aria-hidden="true"></i>
-                        <span class="sr-only">{{ social.title }}</span>
-                    </a>
+        <div class="footer-resource">
+            <h3>Resurser</h3>
+            <ul>
+                {% for resources in pages["_meta"].meta.resources %}
+                    <li>
+                        <a href="{{ resources.url }}" title="{{ resources.title }}" role="button">
+                            <i class="{{ resources.icon }}" aria-hidden="true"></i>
+                            <span class="sr-only">{{ resource.title }}</span>
+                            {{ resources.name }}
+                        </a>
+                    </li>
                 {% endfor %}
-            </div>
-    </footer>
+            </ul>
+        </div>
+        <div class="footer-about">
+            <p>
+                Denna webbplats är skapad inom ramen
+                för kursen <a href="https://dbwebb.se/kurser/design-v3">design</a> vid Blekinge tekniska högskola.
+            </p>
+        </div>
+        <div class="footer-social">
+           {% for social in pages["_meta"].meta.social %}
+                <a href="{{ social.url }}" title="{{ social.title }}" role="button">
+                    <i class="{{ social.icon }}" aria-hidden="true"></i>
+                    <span class="sr-only">{{ social.title }}</span>
+                </a>
+            {% endfor %}
+        </div>
+</footer>
     <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>
