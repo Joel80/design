@@ -401,6 +401,13 @@ body {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .flash-region {
   max-width: 100%;
   padding: 0 0.5em;
@@ -509,46 +516,23 @@ body {
 }
 
 .main-article {
-  width: 62.5%;
-  float: left;
-}
-
-.aside {
-  /* flex: 1 0 auto; */
-  width: 31.25%;
-  padding: 1.5em;
-  margin: 0;
-  float: right;
-  background-color: #2e1334;
-  border-radius: 20%;
-}
-
-.resource h2 {
-  text-align: left;
-}
-.resource ul {
-  padding: 0;
-  list-style-type: none;
-}
-.resource li {
-  padding: 0.5em;
-  text-align: left;
-}
-.resource a {
-  padding: 0;
-  margin: 0;
-  color: rgba(255, 255, 255, 0.6);
-}
-.resource a:hover {
-  text-decoration: none;
-  color: #f2f2f2;
+  flex: 1 0 auto;
+  width: 100%;
 }
 
 /*** BASIC LAYOUT: FOOTER ***/
 .site-footer {
   flex: 0 0 auto;
+  display: grid;
+  justify-content: space-around;
   background-color: #2e1334;
   color: rgba(255, 255, 255, 0.6);
+}
+.site-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.site-footer a:hover {
+  color: #fff;
 }
 
 .site-footer a {
@@ -559,17 +543,70 @@ body {
   color: #fff;
 }
 
-.site-footer p {
-  margin: 1em;
-  padding: 3em 0;
+/* .site-footer p {
+    margin: 1em;
+    padding: 3em 0;
+} */
+.footer-resource {
+  grid-column: 1/1;
+  padding: 1em;
+  text-align: center;
+}
+.footer-resource h3 {
+  text-align: left;
+  margin: 0;
+}
+.footer-resource ul {
+  padding: 0;
+  list-style-type: none;
+}
+.footer-resource li {
+  padding: 0.5em;
+  text-align: left;
+}
+.footer-resource a {
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-resource a:hover {
+  text-decoration: none;
+  color: #f2f2f2;
 }
 
-.site-footer .social {
-  float: right;
-  padding: 1.5em 0 1.5em 1em;
+.footer-about {
+  grid-column: 2/3;
+  padding: 1em;
+  text-align: center;
+}
+
+.footer-social {
+  grid-column: 4/4;
+  padding: 0.5em;
   font-size: 2rem;
 }
 
+@media screen and (max-width: 767px) {
+  .site-footer {
+    justify-content: center;
+  }
+
+  .footer-resource {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
+
+  .footer-about {
+    grid-column: 1/1;
+    grid-row: 1/1;
+  }
+
+  .footer-social {
+    grid-column: 1/1;
+    grid-row: 3/3;
+    padding: 1em;
+  }
+}
 /*** TYPOGRAPHY ***/
 * {
   font-family: "Roboto", sans-serif;
@@ -669,7 +706,7 @@ img {
 }
 
 .me-img {
-  width: 40%;
+  width: 30%;
   float: right;
   border-radius: 50%;
   padding: 0.5em;
@@ -740,7 +777,8 @@ img {
   }
 
   .site-footer p {
-    padding: 1em 0;
+    /* padding: 1em 0; */
+    word-wrap: break-word;
   }
 
   .site-footer .social {
@@ -751,6 +789,7 @@ img {
     display: none;
   }
 }
+/**COLORS**/
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6985,13 +7024,13 @@ readers do not read off random characters that represent icons */
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap'); */
 @font-face {
   font-family: "Roboto";
-  src: url("../../shared/fonts/Roboto/Roboto-Regular.ttf");
+  src: url("../../../shared/fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("../../shared/fonts/Open_Sans/OpenSans-Regular.ttf");
+  src: url("../../../shared/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("../../shared/fonts/Open_Sans/OpenSans-Bold.ttf");
+  src: url("../../../shared/fonts/Open_Sans/OpenSans-Bold.ttf");
 }

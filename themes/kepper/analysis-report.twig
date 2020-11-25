@@ -21,7 +21,11 @@
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% endif %}
 </head>
 
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -57,28 +61,30 @@
                 </div>
             </nav>
             <div class="flash-region">
-                <img class="flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
-                <p><span>Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+                {% if config.session.theme == "dark" %}
+                    <img class="flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
+                    <p><span class="photographer">Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+                {% else %}
+                    <img class="flash-img" src="{{ base_url }}/image/alexandre-brondino--bi8zhvPhVA-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
+                    <p><span>Photo by <a href="https://unsplash.com/@brondia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexandre Brondino</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+                {% endif %}
             </div>
         </div>
     </header>
 
     <div class="main" id="main" role="main">
         <div class="container">
-            <div class="landingpage">
-                {{content}}
-                {% for page in pages("report") %}
-                <div {{ page.title == "Kmom10" ? 'class="kmom-box project"' : 'class= "kmom-box"' }}>
-                    <div class="kmom-header">{{page.title}}</div>
-                    <div class="kmom-content">
-                        {{page.description}} 
-                    </div>
-                    <div class="kmom-link">
-                        <a href="{{page.url}}"><i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
-                    </div>
+            <div class="reportpage">
+                <div class="report-links">
+                    <ul>
+                        {% for page in pages ("analysis") %}
+                            <li><a href="{{page.url}}">{{page.title}}</a></li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                {% endfor %}
-               
+                <div class="report">
+                    {{content}}
+                </div>
             </div>
         </div>
     </div>

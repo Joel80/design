@@ -1,0 +1,18 @@
+/**COLORS**/
+$heading-color: rgba(255, 255, 255, 0.7) !default;
+$main-text-color: rgba(255, 255, 255, 0.6) !default;
+$main-back-color: #121212 !default;
+$second-back-color: #2e1334 !default;
+$third-back-color: #712f80;
+$nav-a-color: rgba(255, 255, 255, 0.6) !default;
+$nav-a-hover-color: #fff !default;
+$nav-a-active-color: #fff !default;
+$a-color: darken(#fff, 15%) !default;
+$a-hover-color: #fff !default;
+$a-footer-color: rgba(255, 255, 255, 0.6) !default;
+$a-footer-hover-color: #fff !default;
+
+.me-img,
+.logo img {
+    filter: brightness(0.8) contrast(1.2);
+}

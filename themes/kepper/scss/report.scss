@@ -12,7 +12,7 @@
 .kmom-box {
     display: grid;
     text-align: left;
-    background-color: $second-back-color;
+    background-color: $third-back-color;
     border: 0.1em solid $second-back-color;
     grid-template-areas: 'kmom-header' 'kmom-content' 'kmom-link';
 
@@ -25,7 +25,7 @@
 
 .kmom-header {
     padding: 0.5em;
-    background-color: $second-back-color;
+    background-color: $third-back-color;
     color: $main-text-color;
     grid-row: 1 / 1;
 }

@@ -8,22 +8,23 @@
     color: $main-text-color;
 
     a {
-        color: $main-text-color;
+        color: $a-footer-color;
     }
 
     a:hover {
-        color: $a-hover-color;
+        color: $a-footer-hover-color;
+        text-decoration: none;
     }
 }
 
-.site-footer a {
+/* .site-footer a {
     color: $main-text-color;
 }
 
 .site-footer a:hover {
     color: $a-hover-color;
 }
-
+ */
 /* .site-footer p {
     margin: 1em;
     padding: 3em 0;
@@ -53,12 +54,10 @@
     a {
         padding: 0;
         margin: 0;
-        color: $main-text-color;
     }
 
     a:hover {
         text-decoration: none;
-        color: $a-color;
     }
 }
 

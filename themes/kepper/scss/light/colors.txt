@@ -1,0 +1,12 @@
+
+Monokromt
+https://color.adobe.com/sv/create/color-wheel
+#4A98D4
+#65849B
+#2F6186 -base
+#8AB4D4
+#1D3C54
+#152a3b - extra dark nuance of #1D3C54
+
+Komplementär:
+#87642F
