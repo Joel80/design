@@ -5,7 +5,7 @@
     display: grid;
     justify-content: space-around;
     background-color: $second-back-color;
-    color: $main-text-color;
+    color: $footer-text-color;
 
     a {
         color: $a-footer-color;
@@ -38,6 +38,7 @@
     h3 {
         text-align: left;
         margin: 0;
+        color: $footer-heading-color;
 
     }
 
