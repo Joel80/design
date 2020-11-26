@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass kepper/scss/style.scss:kepper/css/style.css kepper/scss/style-dark.scss kepper/css/style-dark.css  --no-source-map --watch",
-    "watch-min": "sass kepper/scss/style.scss:kepper/css/style.min.css kepper/scss/style-dark.scss kepper/css/style-dark.min.css  --no-source-map --watch --style compressed",
+    "watch": "sass kepper/scss/light/style.scss:kepper/css/style.css kepper/scss/dark/style-dark.scss:kepper/css/style-dark.css  --no-source-map --watch",
+    "watch-min": "sass kepper/scss/light/style.scss:kepper/css/style.min.css kepper/scss/dark/style-dark.scss:kepper/css/style-dark.min.css  --no-source-map --watch --style compressed",
     "style": "npm run style-light && npm run style-dark",
     "style-min": "npm run style-light-min && npm run style-dark-min",
     "style-dark": "sass kepper/scss/dark/style-dark.scss kepper/css/style-dark.css --no-source-map",
