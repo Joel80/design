@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="{{ theme_url }}/../shared/img/favicon2.png">
+    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+
+    {% if meta.description %}
+        <meta name="description" content="{{ meta.description|striptags }}" />
+    {% endif %}
+    {% if meta.robots %}
+        <meta name="robots" content="{{ meta.robots }}" />
+    {% endif %}
+
+    {% if current_page %}
+        <link rel="canonical" href="{{ current_page.url }}" />
+    {% endif %}
+
+
+    <!-- Insert font choice here -->
+    {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
+    <!-- End -->
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% endif %}
+    
+</head>
+
+<!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
+<body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+    <header class="site-header">
+        <div class= "container">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+                <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+                <span class="sr-only">Toggle Menu</span>
+            </a>
+            {% if pages["_meta"].meta.logo %}
+                <div class="logo" aria-hidden="true">
+                    <a href="{{ "index"|link }}">
+                        <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                    </a>
+                </div>
+            {% endif %}
+            <div {{ pages["_meta"].meta.tagline ? 'class="title tagline"' : 'class="title"' }}>
+                <a href="{{ "index"|link }}">
+                    <h1>{{ site_title }}</h1>
+                    {{ pages["_meta"].meta.tagline|markdown }}
+                </a>
+            </div>
+            <nav class="nav">
+                <div id="nav" role="navigation" tabindex="-1">
+                    <ul>
+                        {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                            <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                                <a href="{{ page.url }}">{{ page.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </nav>
+            <div class="flash-region">
+                {% if config.session.theme == "dark" %}
+                <img class="flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
+                <p><span class="photographer">Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+             {% else %}
+                <img class="flash-img" src="{{ base_url }}/image/alexandre-brondino--bi8zhvPhVA-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
+                <p><span>Photo by <a href="https://unsplash.com/@brondia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexandre Brondino</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+            {% endif %}
+            </div>
+
+        </div>
+    </header>
+
+    <div class="main" id="main" role="main">
+        
+            <div class="gallery">
+                {% for image in meta.images %}
+                <div class="gallery-box">
+                    <div class="gallery-image">
+                        <a href="{{base_url}}/image/gallery/{{image.url}}">
+                            <picture>
+                                <source media="(min-width: 668px)" srcset="{{base_url}}/image/gallery/{{image.url}}?crop-to-fit&aspect-ratio=1:1&q=90" alt="{{image.alt}}">
+                                <source media="(min-width: 376px)" srcset="{{base_url}}/image/gallery/{{image.url}}?crop-to-fit&aspect-ratio=1:1&w=667&q=80" alt="{{image.alt}}">
+                                <img src="{{base_url}}/image/gallery/{{image.url}}?crop-to-fit&aspect-ratio=1:1&w=375&q=70" alt="{{image.alt}}">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="gallery-credits">
+                        {{image.credit}}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-resource">
+            <h3>Resurser</h3>
+            <ul>
+                {% for resources in pages["_meta"].meta.resources %}
+                    <li>
+                        <a href="{{ resources.url }}" title="{{ resources.title }}" role="button">
+                            <i class="{{ resources.icon }}" aria-hidden="true"></i>
+                            <span class="sr-only">{{ resource.title }}</span>
+                            {{ resources.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="footer-about">
+            <p>
+                Denna webbplats är skapad inom ramen
+                för kursen <a href="https://dbwebb.se/kurser/design-v3">design</a> vid Blekinge tekniska högskola.
+            </p>
+        </div>
+        <div class="footer-social">
+           {% for social in pages["_meta"].meta.social %}
+                <a href="{{ social.url }}" title="{{ social.title }}" role="button">
+                    <i class="{{ social.icon }}" aria-hidden="true"></i>
+                    <span class="sr-only">{{ social.title }}</span>
+                </a>
+            {% endfor %}
+        </div>
+</footer>
+    <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
+    <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
+    <script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>
+</body>
+</html>
