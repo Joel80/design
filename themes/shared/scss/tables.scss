@@ -1,0 +1,26 @@
+.analysis-table {
+    margin: 0.5em;
+    width: 33%;
+    border-collapse: collapse;
+}
+
+.analysis-table th,
+.analysis-table td {
+    border: 0.1em solid $second-back-color;
+    padding: 0.2em;
+}
+
+.analysis-table th {
+    min-height: 0.1em;
+    color: #000;
+    background-color: $second-back-color;
+}
+
+.analysis-table td {
+    text-align: left;
+    color: $main-text-color;
+}
+
+.analysis-table tr:nth-child(even) {
+    background-color: $third-back-color;
+}
