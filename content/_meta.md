@@ -1,5 +1,5 @@
 ---
-Logo: image/me-small.jpg
+Logo: image/me-small.jpg?w=200
 Tagline: Min portfolio
 Social:
     - title: Länk till sidans github repo.
