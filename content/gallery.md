@@ -11,7 +11,7 @@ images:
       credit: <span>Photo by <a href="https://unsplash.com/@prevailz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sean Pierce</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
     - alt: ligtning
       url: lightning-3.jpg
-      credit: 3. <span>Photo by <a href="https://unsplash.com/@lc_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leon Contreras</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      credit: <span>Photo by <a href="https://unsplash.com/@lc_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leon Contreras</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
     - alt: ligtning
       url: lightning-4.jpg
       credit: <span>Photo by <a href="https://unsplash.com/@bekmanis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Elvis Bekmanis</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
