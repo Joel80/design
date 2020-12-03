@@ -13,11 +13,11 @@ Jag valde att analysera samma tre webbplatser som under förra kmomet. Alltså P
 ### Metod 
 För att granska myndigheternas webbplatser valdes tre, på webbplatsen ingående, webbsidor ut. När jag valde ut vilka webbsidor som skulle vara med valde jag startsidan samt det jag uppfattade som de två första "reguljära" ingångarna. Försäkringskassan hade på första plats en ingång kring corona - denna valde jag bort eftersom den (förhoppningsvis) är tillfällig och därför kanske kan sägas avvika i innehåll från de mer permanenta ingångarna. I Skatteverkets fall valde jag startsidan och de två första ingångarna i den gula "navbaren".
 
-Sedan användes [Googles PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) för att mäta sidornas prestanda. Webbsidorna utvärderades där både för mobil och desktop och betygen noterades. PageSpeedInsights ger ett betyg mellan 0 och 100 där 0-49 är ett "dåligt" betyg, 50-89 äre ett "genomsnittligt" betyg som innebär att sidan behöver förbättras och 90-100 innebär att sidan är "bra".[2] PageSpeedInsights gav flera tips på hur sidorna kunde förbättras. I diskussionen kring varje sida har jag inte lyft alla förslag utan lyft några exempel. 
+Sedan användes [Googles PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) för att mäta sidornas prestanda. Webbsidorna utvärderades där både för mobil och desktop och betygen noterades. PageSpeedInsights ger ett betyg mellan 0 och 100 där 0-49 är ett "dåligt" betyg, 50-89 är ett "genomsnittligt" betyg som innebär att sidan behöver förbättras och 90-100 innebär att sidan är "bra".[2] PageSpeedInsights gav flera tips på hur sidorna kunde förbättras. I diskussionen kring varje sida har jag inte lyft alla förslag utan lyft några exempel. 
 
 Firefox developer editions devtools prestandaanalys användes sedan för att mäta sidornas laddningstid, antalet resurser som laddades samt sidans totala storlek. Mätningen utfördes tre gånger för varje webbsida och sedan togs ett genomsnitt av värdena. De värden som registrerades var de som uppmättes med cache inaktiverat. 
 
-Den data som samlades in i analysen finns i [detta kalkylark](https://docs.google.com/spreadsheets/d/1uMKB0m7V0OgIRrsCboD2ftkm0nsQL6XwbzqXR9PphPA/edit?usp=sharing). 
+De data som samlades in i analysen finns i [detta kalkylark](https://docs.google.com/spreadsheets/d/1uMKB0m7V0OgIRrsCboD2ftkm0nsQL6XwbzqXR9PphPA/edit?usp=sharing). 
 
 ### Resultat
 #### Pensionsmyndigheten
@@ -26,12 +26,12 @@ Den data som samlades in i analysen finns i [detta kalkylark](https://docs.googl
 Jag valde ut följande webbsidor att mäta hos Pensionsmyndigheten:
 
 ###### Startsidan
-Sidan fick betyget 79 för mobil och 96 för desktop på PageSpeedInsights. Den laddade i genomsnitt på 2,26 sekunder, hade i genomsnitt 44 resurser som efterfrågades och dess totala storlek var i genomsnitt 2 185kB.
+Sidan fick betyget 79 för mobil och 96 för desktop på PageSpeedInsights. Den laddade i genomsnitt på 2,26 sekunder, hade i genomsnitt 40 resurser som efterfrågades och dess totala storlek var i genomsnitt 2 186kB.
 
 
 ###### Diskussion
 Sidan får ett "genomsnittligt" värde på PageSpeedInsights för mobiler och ett "bra" värde på desktop. Det tar i genomsnitt strax över 2 sekunder att ladda klart sidan. PageSpeedInsights ger vissa insikter kring vad som skulle kunna förbättras. Bl.a. skulle vissa resurser (i detta fall fonter) kunna laddas in i förväg, texten skulle också kunna göras synlig medan webbteckensnitten läses in. För mobil anger också PageSpeedInsights bl.a. att modernare bildformat skulle leda till en besparing i storlek på data som skickas och därmed också en 
-tidsbesparing. För mobil verkar det också finnas resurser som blockerar renderingen och skulle kunna inlinas eller där inladdningen skulle kunna vänta till senare.  
+tidsbesparing. Det verkar också finnas resurser som blockerar renderingen och som skulle kunna inlinas eller där inladdningen skulle kunna vänta till senare.  
   
 Länk till sidan:  
 [Pensionsmyndighetens startsida](https://www.pensionsmyndigheten.se/)
@@ -39,10 +39,10 @@ Länk till sidan:
 
 ###### Förstå din pension
 
-Sidan fick betyget 83 för mobil och 97 för desktop på PageSpeedInsights. Den laddade i genomsnitt på 1,84 sekunder, hade i genomsnitt 26 resurser som efterfrågades och dess totala storlek var i genomsnitt 1 941kB. 
+Sidan fick betyget 83 för mobil och 97 för desktop på PageSpeedInsights. Den laddade i genomsnitt på 1,84 sekunder, hade i genomsnitt 26 resurser som efterfrågades och dess totala storlek var i genomsnitt 1 942kB. 
 
 ###### Diskussion
-Sidan får ett "genomsnittligt" värde på PageSpeedInsights för mobiler och ett "bra" värde på desktop. Det tar i genomsnitt strax under 2 sekunder att ladda klart sidan. Även här ger PageSpeedInsight tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknena läses in. Sidan verkar inte ha samma problem som startsidan när det gäller omoderna bildformat.
+Sidan får ett "genomsnittligt" värde på PageSpeedInsights för mobiler och ett "bra" värde på desktop. Det tar i genomsnitt strax under 2 sekunder att ladda klart sidan. Även här ger PageSpeedInsight tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknena läses in.
   
 Länk till sidan:  
 [Pensionsmyndigheten - Förstå din pension](https://www.pensionsmyndigheten.se/forsta-din-pension)
@@ -96,7 +96,7 @@ Jag valde ut följande webbsidor att mäta hos Skattteverket:
 Sidan fick betyget 51 för mobil och 87 för desktop på PageSpeedInsights. Den laddade i genomsnitt på 4,54 sekunder, hade i genomsnitt 43 resurser som efterfrågades och dess totala storlek var i genomsnitt 2 857 kB.
 
 ###### Diskussion
-Sidan får ett "genomsnittligt" värde på PageSpeedInsights för mobiler och ett "genomsnittligt" värde på desktop. Laddningstiden är på över 4 sekunder. I den mobila analysen verkar det främst vara olika resurser som blockerar renderingen, där listas både css-filer och js-filer bland annat. Det finns en del javascript på sidan som flaggas för att det inte används i den mobila analysen. Även för denna sida ger PageSpeedInsight också tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknen läses in. I desktopanalysen flaggas för att vissa resurser blockerar renderingen, att läsa in fonter i förväg är också ett exempel på vad som skulle kunna åtgärdas för att sidan ska ladda snabbare.
+Sidan får ett "genomsnittligt" värde på PageSpeedInsights för mobiler och ett "genomsnittligt" värde på desktop. Laddningstiden är på över 4 sekunder. I den mobila analysen verkar det främst vara olika resurser som blockerar renderingen, där listas både css-filer och js-filer bland annat. Det finns en del javascript på sidan som flaggas för att det inte används i den mobila analysen. Även för denna sida ger PageSpeedInsight tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknen läses in. I desktopanalysen flaggas för att vissa resurser blockerar renderingen, att läsa in fonter i förväg är också här ett exempel på vad som skulle kunna åtgärdas för att sidan ska ladda snabbare.
   
 Länk till sidan:  
 [Skatteverkets startsida](https://www.skatteverket.se/)
@@ -105,7 +105,7 @@ Länk till sidan:
 Sidan fick betyget 25 för mobil och 81 för desktop på PageSpeedInsights. Den laddade i genomsnitt på 3,47 sekunder, hade i genomsnitt 54 resurser som efterfrågades och dess totala storlek var i genomsnitt 3 678 kB.
 
 ###### Diskussion
-Sidan får ett "dåligt" värde på PageSpeedInsights för mobiler och ett "genomsnittligt" värde på desktop. Laddningstiden är på över 3 sekunder. I den mobila analysen verkar det, som för startsidan, främst vara olika resurser som blockerar renderingen. Det finns en del javascript på sidan som flaggas för att det inte används i den mobila analysen. Även för denna sida ger PageSpeedInsight också tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknen läses in. Sidan har också, enligt den mobila analysen, JavaScript som inte används. I desktopanalysen verkar den största enskilda "boven" vara att vissa resurser blockerar renderingen precis som för startsidan.
+Sidan får ett "dåligt" värde på PageSpeedInsights för mobiler och ett "genomsnittligt" värde på desktop. Laddningstiden är på över 3 sekunder. I den mobila analysen verkar det, som för startsidan, främst vara olika resurser som blockerar renderingen. Det finns även här en del javascript på sidan som flaggas för att det inte används i den mobila analysen. Även för denna sida ger PageSpeedInsight också tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknen läses in. Sidan har också, enligt den mobila analysen, JavaScript som inte används. I desktopanalysen verkar den största enskilda faktorn vara att vissa resurser blockerar renderingen.
   
 Länk till sidan:  
 [Skatteverket - Deklaration](https://skatteverket.se/privat/deklaration.html)
@@ -115,7 +115,7 @@ Sidan fick betyget 30 för mobil och 88 för desktop på PageSpeedInsights. Den 
 
 
 ###### Diskussion
-Sidan får ett "dåligt" värde på PageSpeedInsights för mobiler och ett "genomsnittligt" värde på desktop. Laddningstiden är på över 4 sekunder. I den mobila analysen verkar det, som för startsidan, främst vara olika resurser som blockerar renderingen. Det finns en del javascript på sidan som flaggas för att det inte används i den mobila analysen. Även för denna sida ger PageSpeedInsight tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknen läses in. I desktopanalysen flaggas, liksom i flera av fallen ovan, att vissa resurser blockerar renderingen av sidan samt att vissa resurser (även här fonter) skulle kunna laddas i förväg.
+Sidan får ett "dåligt" värde på PageSpeedInsights för mobiler och ett "genomsnittligt" värde på desktop. Laddningstiden är på över 4 sekunder. I den mobila analysen verkar det, som för startsidan, främst vara olika resurser som blockerar renderingen som är problemet. Det finns en del javascript på sidan som flaggas för att det inte används i den mobila analysen. Även för denna sida ger PageSpeedInsight tipset att förladda vissa resurser (fonter) samt att göra text synlig när webbtecknen läses in. I desktopanalysen flaggas, liksom i flera av fallen ovan, att vissa resurser blockerar renderingen av sidan samt att vissa resurser (även här fonter) skulle kunna laddas i förväg.
   
 Länk till sidan:  
 [Skatteverket - Skatter](https://skatteverket.se/privat/skatter.html)
