@@ -6,7 +6,7 @@ Hidden: true
 ---
 
 ## Testsida
-
+<!-- 
 # Laddar in bilden som vanligt
 ![Leaf](%assets_url%/img/leaf_256x256.png)
 # Laddar in bilden via Cimage
@@ -70,3 +70,12 @@ Hidden: true
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
 </div>
+ -->
+
+<picture>
+    <source media="(min-width: 668px)" srcset="image/me3.jpg?w=400&q=90" alt="Bild på Joel Löfgren">
+    <source media="(min-width: 376px)" srcset="image/me3.jpg?q=70&w=667" alt="Bild på Joel Löfgren">
+    <img class= "me-img" src="image/me3.jpg?q=70&w=375" alt="Bild på Joel Löfgren">
+</picture>
+
+<!-- <img class="me-img" src="image/me3.jpg?w=400&q=90" alt= "Bild på Joel Löfgren"> -->

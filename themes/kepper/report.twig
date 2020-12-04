@@ -63,11 +63,19 @@
             </nav>
             <div class="flash-region">
                 {% if config.session.theme == "dark" %}
-                <img class="flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
-                <p><span class="photographer">Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
-             {% else %}
-                <img class="flash-img" src="{{ base_url }}/image/alexandre-brondino--bi8zhvPhVA-unsplash_cropped.jpg?sc=banner1&amp;=40,0,0,0" alt="Flash-image">
-                <p><span>Photo by <a href="https://unsplash.com/@brondia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexandre Brondino</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+                    <picture>
+                        <source media="(min-width: 668px)" srcset="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?q=90&w=900" alt="Flash-image">
+                        <source media="(min-width: 376px)" srcset="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?q=70&w=667" alt="Flash-image">
+                        <img class= "flash-img" src="{{ base_url }}/image/marcel-knupfer-37wuETxVwTQ-unsplash_cropped.jpg?q=70&w=375" alt="Flash-image">
+                    </picture>
+                    <p><span class="photographer">Photo by <a href="https://unsplash.com/@masselmello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcel Knupfer</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+                {% else %}
+                    <picture>
+                        <source media="(min-width: 668px)" srcset="{{ base_url }}/image/alexandre-brondino--bi8zhvPhVA-unsplash_cropped.jpg?q=90" alt="Flash-image">
+                        <source media="(min-width: 376px)" srcset="{{ base_url }}/image/alexandre-brondino--bi8zhvPhVA-unsplash_cropped.jpg?q=70&w=667" alt="Flash-image">
+                        <img class= "flash-img" src="{{ base_url }}/image/alexandre-brondino--bi8zhvPhVA-unsplash_cropped.jpg?q=70&w=375" alt="Flash-image">
+                    </picture>
+                    <p><span>Photo by <a href="https://unsplash.com/@brondia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexandre Brondino</a> on <a href="https://unsplash.com/s/photos/flash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
             {% endif %}
             </div>
 
