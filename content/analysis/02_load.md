@@ -21,11 +21,11 @@ De data som samlades in i analysen finns i [detta kalkylark](https://docs.google
 
 ### Resultat
 #### Pensionsmyndigheten
-<img class="city-img" src= '../assets/img/pensionsmyndigheten.png' alt= "Screenshot från Pensionsmyndighetens webbplats">
+<img class="report-image" src= '../assets/img/pensionsmyndigheten.png' alt= "Screenshot från Pensionsmyndighetens webbplats">
 
 Jag valde ut följande webbsidor att mäta hos Pensionsmyndigheten:
 
-###### Startsidan
+##### Startsidan
 Sidan fick betyget 79 för mobil och 96 för desktop på PageSpeedInsights. Den laddade i genomsnitt på 2,26 sekunder, hade i genomsnitt 40 resurser som efterfrågades och dess totala storlek var i genomsnitt 2 186kB.
 
 
@@ -57,7 +57,7 @@ Länk till sidan:
 [Pensionsmyndigheten - Gå i pension](https://www.pensionsmyndigheten.se/ga-i-pension)
 
 #### Försäkringskassan
-<img class="city-img" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats">
+<img class="report-image" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats">
 Jag valde ut följande webbsidor att mäta hos Försäkringskassan:
 
 ##### Startsidan
@@ -88,7 +88,7 @@ Länk till sidan:
 [Försäkringskassan - Sjuk](https://www.forsakringskassan.se/privatpers/sjuk)
 
 #### Skatteverket
-<img class="city-img" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats">
+<img class="report-image" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats">
 
 Jag valde ut följande webbsidor att mäta hos Skattteverket:
 
@@ -128,7 +128,7 @@ Pensionsmyndigheten är den webbplats som kommer bäst ut i testet tycker jag. D
 Vad är då en rimlig laddningstid för en sida? Jag är ju själv uppväxt under telefonmodemens tid och kommer ihåg när en försökte surfa där, så personligen är jag inte så känslig för laddningstider. Den enda sida jag själv reagerade över var Skatteverkets där det vid en laddning (utanför mätning) verkligen märktes att det tog tid att rendera sidan. Så jag skulle nog säga 3 sekunder för mig innan jag reagerar men betydligt längre tid innan jag ger upp. För mig är alltså samtliga i testet ingående myndigheters webbplatser helt ok när det gäller laddningshastighet. Men det är min egen uppfattning. Under onsdagens föreläsning framkom ju att mätningar visar att en användare kanske bara stannar på en webbplats i ett par sekunder innan hen tappar intresset. Därför tänker jag att jag själv vill ha som mål för de sidor som jag skapar att ha en kortare laddningstid än vad jag själv tolererar.
 
 ### Referenser
-- 1 [Förvaltningskulutur](https://www.forvaltningskultur.se/statliga-vardegrunden/)
+- 1 [Förvaltningskultur](https://www.forvaltningskultur.se/statliga-vardegrunden/)
 - 2 [Lighthouse performance scoring](https://web.dev/performance-scoring/)
 
 ### Övrigt
