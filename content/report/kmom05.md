@@ -22,5 +22,5 @@ Min TIL för detta moment får bli insikten att hur vi designar och programmerar
 ### Till sist: Youtube-klipp!
 Favoritklipp och favoritklipp... men för en gammal brädspelare som har spelat sönder spelet en fick i mitten av 80-talet så är det här i alla fall något att vänta på...
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/Xjv7vdBkluw" frameborder="0" allowfullscreen></iframe>
+    <iframe title="DRAKBORGEN kommer till Kickstarter den 6 maj 2020" src="https://www.youtube.com/embed/Xjv7vdBkluw" frameborder="0" allowfullscreen></iframe>
 </div>
