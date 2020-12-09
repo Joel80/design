@@ -6,16 +6,19 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1em 1em;
     padding: 1em;
-    
 }
 
+.gallery h2 {
+    grid-column: span 3;
+    justify-self: center;
+}
 
 .gallery-box {
     grid-template-areas: 'gallery-image' 'gallery-credits';
+    justify-self: center;
 }
 
 .gallery-image {
-    text-align: left;
     /* background-color: $main-back-color; */
     grid-row: 1/1;
     
@@ -33,10 +36,26 @@
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .gallery h2 {
+        grid-column: span 2;
+        justify-self: center;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .gallery {
         grid-template-columns: 1fr;
+    }
+
+    .gallery h2 {
+        grid-column: span 1;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .gallery-box {
+        justify-self: left;
     }
 }
