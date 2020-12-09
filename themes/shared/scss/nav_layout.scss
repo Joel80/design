@@ -19,14 +19,17 @@
 
     a {
         color: $nav-a-color;
+        text-decoration: none;
     }
 
     a:hover {
         color: $nav-a-hover-color;
+        text-decoration: underline;
     }
 
     .active a {
         color: $nav-a-hover-color;
+        text-decoration: underline;
     }
 
 }
