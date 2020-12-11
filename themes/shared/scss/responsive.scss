@@ -71,3 +71,35 @@
         display: none;
     }
 }
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: $h1-font-size*0.8;
+    }
+    
+    h2 {
+        font-size: $h1-font-size*$h2-multiplier*0.8;
+    }
+    
+    h3 {
+        font-size: $h1-font-size*$h3-multiplier*0.8;
+    }
+    
+    h4 {
+        font-size: $h1-font-size*$h4-multiplier*0.8;
+    }
+    
+    h5 {
+        font-size: $h1-font-size*$h5-multiplier*0.8;
+    }
+    
+    h6 {
+        font-size: $h1-font-size*$h6-multiplier*0.8;
+    }
+}
+
+@media (max-width: 340px) {
+    p {
+        font-size: 0.9rem;
+    }
+}
