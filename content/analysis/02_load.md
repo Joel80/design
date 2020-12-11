@@ -25,9 +25,9 @@ De data som samlades in i analysen finns i [detta kalkylark](https://docs.google
  -->
 
  <picture>
-<source media="(min-width: 668px)" srcset="../image/pensionsmyndigheten.png?q=70&w=600" alt="Screenshot från Pensionsmyndighetens webbplats">
-<source media="(min-width: 376px)" srcset="../image/pensionsmyndigheten.png?q=70&w=325" alt="Screenshot från Pensionsmyndighetens webbplats">
-<img class= "report-image" src="../image/pensionsmyndigheten.png?q=70&w=270" alt="Screenshot från Pensionsmyndighetens webbplats">
+<source media="(min-width: 668px)" srcset="../image/pensionsmyndigheten.png?w=600" alt="Screenshot från Pensionsmyndighetens webbplats">
+<source media="(min-width: 376px)" srcset="../image/pensionsmyndigheten.png?w=325" alt="Screenshot från Pensionsmyndighetens webbplats">
+<img class= "report-image" src="../image/pensionsmyndigheten.png?w=270" alt="Screenshot från Pensionsmyndighetens webbplats">
 </picture>
 
 <!-- <img class="report-image" src= '../assets/img/pensionsmyndigheten.png' alt= "Screenshot från Pensionsmyndighetens webbplats"> -->
@@ -69,9 +69,9 @@ Länk till sidan:
 <!-- ![Screenshot från Försäkringskassans webbplats](../image/forsakringskassan.png){.report-image}
  -->
 <picture>
-<source media="(min-width: 668px)" srcset="../image/forsakringskassan.png?q=70&w=600" alt="Screenshot från Försäkringskassans webbplats">
-<source media="(min-width: 376px)" srcset="../image/forsakringskassan.png?q=70&w=325" alt="Screenshot från Försäkringskassans webbplats">
-<img class= "report-image" src="../image/forsakringskassan.png?q=70&w=270" alt="Screenshot från FÖrsäkringskassans webbplats">
+<source media="(min-width: 668px)" srcset="../image/forsakringskassan.png?w=600" alt="Screenshot från Försäkringskassans webbplats">
+<source media="(min-width: 376px)" srcset="../image/forsakringskassan.png?w=325" alt="Screenshot från Försäkringskassans webbplats">
+<img class= "report-image" src="../image/forsakringskassan.png?w=270" alt="Screenshot från FÖrsäkringskassans webbplats">
 </picture>
 
 <!-- <img class="report-image" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats"> -->
@@ -109,9 +109,9 @@ Länk till sidan:
 <!-- ![Screenshot från Pensionsmyndighetens webbplats](../image/skatteverket.png){.report-image} -->
 
 <picture>
-<source media="(min-width: 668px)" srcset="../image/skatteverket.png?q=70&w=600" alt="Screenshot från Skatteverkets webbplats">
-<source media="(min-width: 376px)" srcset="../image/skatteverket.png?q=70&w=325" alt="Screenshot från Skatteverkets webbplats">
-<img class= "report-image" src="../image/skatteverket.png?q=70&w=270" alt="Screenshot från Skatteverkets webbplats">
+<source media="(min-width: 668px)" srcset="../image/skatteverket.png?w=600" alt="Screenshot från Skatteverkets webbplats">
+<source media="(min-width: 376px)" srcset="../image/skatteverket.png?w=325" alt="Screenshot från Skatteverkets webbplats">
+<img class= "report-image" src="../image/skatteverket.png?w=270" alt="Screenshot från Skatteverkets webbplats">
 </picture>
 
 <!-- <img class="report-image" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats">

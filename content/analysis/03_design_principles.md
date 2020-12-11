@@ -33,9 +33,9 @@ Mitt intryck är att webbplatsen har en minimalistisk design i alla fall avseend
 <!-- ![Screenshot från Matt Farleys webbplats](../image/matt_farley_1.png){.report-image} -->
 
 <picture>
-<source media="(min-width: 668px)" srcset="../image/matt_farley_1.png?q=70&w=600" alt="Screenshot från Matt Farleys webbplats">
-<source media="(min-width: 376px)" srcset="../image/matt_farley_1.png?q=70&w=325" alt="Screenshot från Matt Farleys webbplats">
-<img class= "report-image" src="../image/matt_farley_1.png?q=70&w=270" alt="Screenshot från Matt Farleys webbplats">
+<source media="(min-width: 668px)" srcset="../image/matt_farley_1.png?w=600" alt="Screenshot från Matt Farleys webbplats">
+<source media="(min-width: 376px)" srcset="../image/matt_farley_1.png?w=325" alt="Screenshot från Matt Farleys webbplats">
+<img class= "report-image" src="../image/matt_farley_1.png?w=270" alt="Screenshot från Matt Farleys webbplats">
 </picture>
 
 
@@ -53,9 +53,9 @@ Ett exempel på betoning är den centrala placeringen av huvudbudskapet - vem st
 <!-- ![Screenshot från Matt Farleys webbplats](../image/matt_farley_2.png){.report-image} -->
 
 <picture>
-<source media="(min-width: 668px)" srcset="../image/matt_farley_2.png?q=70&w=600" alt="Screenshot från Matt Farleys webbplats">
-<source media="(min-width: 376px)" srcset="../image/matt_farley_2.png?q=70&w=325" alt="Screenshot från Matt Farleys webbplats">
-<img class= "report-image" src="../image/matt_farley_2.png?q=70&w=270" alt="Screenshot från Matt Farleys webbplats">
+<source media="(min-width: 668px)" srcset="../image/matt_farley_2.png?w=600" alt="Screenshot från Matt Farleys webbplats">
+<source media="(min-width: 376px)" srcset="../image/matt_farley_2.png?w=325" alt="Screenshot från Matt Farleys webbplats">
+<img class= "report-image" src="../image/matt_farley_2.png?w=270" alt="Screenshot från Matt Farleys webbplats">
 </picture>
 
 
@@ -67,9 +67,9 @@ Ett exempel på harmonisk balans här är bilderna av genomförda projekt. De ä
  -->
 
  <picture>
-<source media="(min-width: 668px)" srcset="../image/matt_farley_3.png?q=70&w=600" alt="Screenshot från Matt Farleys webbplats">
-<source media="(min-width: 376px)" srcset="../image/matt_farley_3.png?q=70&w=325" alt="Screenshot från Matt Farleys webbplats">
-<img class= "report-image" src="../image/matt_farley_3.png?q=70&w=270" alt="Screenshot från Matt Farleys webbplats">
+<source media="(min-width: 668px)" srcset="../image/matt_farley_3.png?w=600" alt="Screenshot från Matt Farleys webbplats">
+<source media="(min-width: 376px)" srcset="../image/matt_farley_3.png?w=325" alt="Screenshot från Matt Farleys webbplats">
+<img class= "report-image" src="../image/matt_farley_3.png?w=270" alt="Screenshot från Matt Farleys webbplats">
 </picture>
 
 <!-- <img class="city-img" src= '../assets/img/matt_farley_3.png' alt= "Screenshot från MAtt Farleys webbplats"> -->
@@ -93,9 +93,9 @@ Denna webbplats gör också ett minimalistiskt intryck på mig. Ett svartvitt fo
 
 <!-- ![Screenshot från Dejans webbplats](../image/dejan_1.png){.report-image} -->
 <picture>
-<source media="(min-width: 668px)" srcset="../image/dejan_1.png?q=70&w=600" alt="Screenshot från Dejans webbplats">
-<source media="(min-width: 376px)" srcset="../image/dejan_1.png?q=70&w=325" alt="Screenshot från Dejans webbplats">
-<img class= "report-image" src="../image/dejan_1.png?q=70&w=270" alt="Screenshot från Dejans webbplats">
+<source media="(min-width: 668px)" srcset="../image/dejan_1.png?w=600" alt="Screenshot från Dejans webbplats">
+<source media="(min-width: 376px)" srcset="../image/dejan_1.png?w=325" alt="Screenshot från Dejans webbplats">
+<img class= "report-image" src="../image/dejan_1.png?w=270" alt="Screenshot från Dejans webbplats">
 </picture>
 <!-- <img class="report-image" src= '../assets/img/dejan_1.png' alt= "Screenshot från Dejans webbplats"> -->
 
@@ -120,9 +120,9 @@ När jag gick in på ett av projekten som utvecklaren hade arbetat med möttes j
 
 <!-- ![Screenshot från Dejans webbplats](../image/dejan_2.png){.report-image} -->
 <picture>
-<source media="(min-width: 668px)" srcset="../image/dejan_2.png?q=70&w=600" alt="Screenshot från Dejans webbplats">
-<source media="(min-width: 376px)" srcset="../image/dejan_2.png?q=70&w=325" alt="Screenshot från Dejans webbplats">
-<img class= "report-image" src="../image/dejan_2.png?q=70&w=270" alt="Screenshot från Dejans webbplats">
+<source media="(min-width: 668px)" srcset="../image/dejan_2.png?w=600" alt="Screenshot från Dejans webbplats">
+<source media="(min-width: 376px)" srcset="../image/dejan_2.png?w=325" alt="Screenshot från Dejans webbplats">
+<img class= "report-image" src="../image/dejan_2.png?w=270" alt="Screenshot från Dejans webbplats">
 </picture>
 <!-- <img class="report-image" src= '../assets/img/dejan_2.png' alt= "Screenshot från Dejans webbplats"> -->
 
@@ -138,9 +138,9 @@ Till skillnad från de andra två förekommer på denna webbplats perspektiv och
 <!-- ![Screenshot från Caferatis webbplats](../image/caferati_1.png){.report-image} -->
 
 <picture>
-<source media="(min-width: 668px)" srcset="../image/caferati_1.png?q=70&w=600" alt="Screenshot från Caferatis webbplats">
-<source media="(min-width: 376px)" srcset="../image/caferati_1.png?q=70&w=325" alt="Screenshot från Caferatis webbplats">
-<img class= "report-image" src="../image/caferati_1.png?q=70&w=270" alt="Screenshot från Caferatis webbplats">
+<source media="(min-width: 668px)" srcset="../image/caferati_1.png?w=600" alt="Screenshot från Caferatis webbplats">
+<source media="(min-width: 376px)" srcset="../image/caferati_1.png?w=325" alt="Screenshot från Caferatis webbplats">
+<img class= "report-image" src="../image/caferati_1.png?w=270" alt="Screenshot från Caferatis webbplats">
 </picture>
 
 <!-- <img class="report-image" src= '../assets/img/caferati_1.png' alt= "Screenshot från Caferatis webbplats"> -->
@@ -156,9 +156,9 @@ Liksom för webbplats 1 finner vi designprincipen balans på sidan där projekte
 <!-- ![Screenshot från Caferatis webbplats](../image/caferati_2.png){.report-image} -->
 
 <picture>
-<source media="(min-width: 668px)" srcset="../image/caferati_2.png?q=70&w=600" alt="Screenshot från Caferatis webbplats">
-<source media="(min-width: 376px)" srcset="../image/caferati_2.png?q=70&w=325" alt="Screenshot från Caferatis webbplats">
-<img class= "report-image" src="../image/caferati_2.png?q=70&w=270" alt="Screenshot från Caferatis webbplats">
+<source media="(min-width: 668px)" srcset="../image/caferati_2.png?w=600" alt="Screenshot från Caferatis webbplats">
+<source media="(min-width: 376px)" srcset="../image/caferati_2.png?w=325" alt="Screenshot från Caferatis webbplats">
+<img class= "report-image" src="../image/caferati_2.png?w=270" alt="Screenshot från Caferatis webbplats">
 </picture>
 
 <!-- <img class="report-image" src= '../assets/img/caferati_2.png' alt= "Screenshot från Caferatis webbplats"> -->
