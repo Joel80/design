@@ -31,7 +31,14 @@ På pensionsmyndighetens webbplats hittades huvudsakligen följande färger:
     </table>
 Utöver dessa användes också svart och vitt för text på webbplatsen, samt en annan blå nyans för länkarna. Den huvudsakliga bakgrundsfärgen utgjordes av gråvita och beiga färger.
 
-![Screenshot från Pensionsmyndighetens webbplats](../image/pensionsmyndigheten.png){.report-image}
+<!-- ![Screenshot från Pensionsmyndighetens webbplats](../image/pensionsmyndigheten.png){.report-image} -->
+
+<picture>
+<source media="(min-width: 668px)" srcset="../image/pensionsmyndigheten.png?q=70&w=600" alt="Screenshot från Pensionsmyndighetens webbplats">
+<source media="(min-width: 376px)" srcset="../image/pensionsmyndigheten.png?q=70&w=325" alt="Screenshot från Pensionsmyndighetens webbplats">
+<img class= "report-image" src="../image/pensionsmyndigheten.png?q=70&w=270" alt="Screenshot från Pensionsmyndighetens webbplats">
+</picture>
+
 
 De orange och gula färgerna befinner sig analogt d.vs. intill varandra på färghjulet, även den lila färgen på "tyck-till-knappen" skulle kunna sägas vara analog då den ligger intill det orange/röda spektrat på färghjulet. Den blå färgen som används för bl.a. logga in knappen skulle kunna sägas vara en komplementärfärg då den återfinns på i stort sett motsatt sida från den orangea färgen i sidans banner. Pensionsmyndigheten använder sig därför enligt min mening av ett komplementärt schema även om den komplementära blå färgen används sparsamt. Jag tycker också att det framgår tydligt att man har utgått från färgen i loggan som synns i headern när webbplatsen har designats. De blå och lila färgerna skulle jag säga utgör accentfärger om man med accentfärg menar en färg som sticker ut och markerar något - det är så de används här.
 
@@ -63,8 +70,13 @@ På Försäkringskassans webbplats hittades följande färger:
    </tr>
     </table>
 
-![Screenshot från Försäkringskassans webbplats](../image/forsakringskassan.png){.report-image}
-
+<!-- ![Screenshot från Försäkringskassans webbplats](../image/forsakringskassan.png){.report-image}
+ -->
+<picture>
+<source media="(min-width: 668px)" srcset="../image/forsakringskassan.png?q=70&w=600" alt="Screenshot från Försäkringskassans webbplats">
+<source media="(min-width: 376px)" srcset="../image/forsakringskassan.png?q=70&w=325" alt="Screenshot från Försäkringskassans webbplats">
+<img class= "report-image" src="../image/forsakringskassan.png?q=70&w=270" alt="Screenshot från FÖrsäkringskassans webbplats">
+</picture>
 
 <!-- <img class="report-image" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats"> -->
 
@@ -98,7 +110,13 @@ På Skatteverkets webbplats hittades huvudsakligen följande färger:
    </tr>
     </table>
 
-![Screenshot från Skatteverkets webbplats](../image/skatteverket.png){.report-image}
+<!-- ![Screenshot från Skatteverkets webbplats](../image/skatteverket.png){.report-image} -->
+
+<picture>
+<source media="(min-width: 668px)" srcset="../image/skatteverket.png?q=70&w=600" alt="Screenshot från Skatteverkets webbplats">
+<source media="(min-width: 376px)" srcset="../image/skatteverket.png?q=70&w=325" alt="Screenshot från Skatteverkets webbplats">
+<img class= "report-image" src="../image/skatteverket.png?q=70&w=270" alt="Screenshot från Skatteverkets webbplats">
+</picture>
 
 <!-- <img class="report-image" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats"> -->
 
