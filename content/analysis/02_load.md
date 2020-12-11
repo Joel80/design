@@ -21,7 +21,10 @@ De data som samlades in i analysen finns i [detta kalkylark](https://docs.google
 
 ### Resultat
 #### Pensionsmyndigheten
-<img class="report-image" src= '../assets/img/pensionsmyndigheten.png' alt= "Screenshot från Pensionsmyndighetens webbplats">
+![Screenshot från Pensionsmyndighetens webbplats](../image/pensionsmyndigheten.png){.report-image}
+
+
+<!-- <img class="report-image" src= '../assets/img/pensionsmyndigheten.png' alt= "Screenshot från Pensionsmyndighetens webbplats"> -->
 
 Jag valde ut följande webbsidor att mäta hos Pensionsmyndigheten:
 
@@ -57,7 +60,11 @@ Länk till sidan:
 [Pensionsmyndigheten - Gå i pension](https://www.pensionsmyndigheten.se/ga-i-pension)
 
 #### Försäkringskassan
-<img class="report-image" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats">
+![Screenshot från Försäkringskassans webbplats](../image/forsakringskassan.png){.report-image}
+
+
+<!-- <img class="report-image" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats"> -->
+
 Jag valde ut följande webbsidor att mäta hos Försäkringskassan:
 
 ##### Startsidan
@@ -88,8 +95,11 @@ Länk till sidan:
 [Försäkringskassan - Sjuk](https://www.forsakringskassan.se/privatpers/sjuk)
 
 #### Skatteverket
-<img class="report-image" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats">
+![Screenshot från Pensionsmyndighetens webbplats](../image/skatteverket.png){.report-image}
 
+
+<!-- <img class="report-image" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats">
+ -->
 Jag valde ut följande webbsidor att mäta hos Skattteverket:
 
 ##### Startsidan

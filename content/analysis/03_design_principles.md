@@ -30,23 +30,29 @@ Detta är en personlig portfolio-sida för en designer och front-end utvecklare.
 ##### Webbplatsens design
 Mitt intryck är att webbplatsen har en minimalistisk design i alla fall avseende textur och färgval - sidan domineras av vitt, svart och lila. (Andra färger förekommer i de bilder som länkar vidare till projekt utvecklaren har arbetat med.) Avsaknaden av bilder och skuggor som ger djup ger webbplatsen ett "platt" uttryck vilket också bidrar till den minimalistiska känslan. 
 
-<img class="report-image" src= '../assets/img/matt_farley_1.png' alt= "Screenshot från MAtt Farleys webbplats">
+![Screenshot från Matt Farleys webbplats](../image/matt_farley_1.png){.report-image}
 
+
+<!-- <img class="report-image" src= '../assets/img/matt_farley_1.png' alt= "Screenshot från MAtt Farleys webbplats">
+ -->
 ##### Gynnas webbplatsens mål och syfte/vilken känsla ger designen?
 I mina ögon ger denna webbplats design en känsla av professionalism och ett tydlligt intryck. Den ger också ett lugnt och harmoniskt intryck. På grund av detta känns den dock kanske inte så spännande. Jag tror ändå att webbplatsens mål gynnas av designen - den ger en känsla av att det är en person som kan sina saker och som kan göra saker effektivt och enkelt. 
 
-<!-- Kommentera om du själv anser att designen gynnar webbplatsens mål och syfte, och/eller vilken känsla som designen ger. -->
 
 ##### Designprinciper som kännetecknar webbplatsens design
 Denna webbplats tycker jag ger exempel på flera av designprinciperna som nämns i texten "Visual Litteracy". Här finns t.ex. både balans, harmoni, enhet, rörelse och variation. Som jag skrev ovan gör denna webbplats ett harmoniskt intryck på mig men här finns också variation och betoning. 
 
 Ett exempel på betoning är den centrala placeringen av huvudbudskapet - vem står bakom sidan och vad denna person kan. Det första jag ser (over the fold) är en tecknad glad figur och rubriken: Designer, Front-end Developer & Mentor satt i stort snitt. Strax under det finns ett stort element med ett kort hälsningsmeddelande och presentation på lila bakgrund. Att placera ett huvudbudskap överst och centralt gör att användarna fokuserar på detta. 
 
-<img class="report-image" src= '../assets/img/matt_farley_2.png' alt= "Screenshot från MAtt Farleys webbplats">
+![Screenshot från Matt Farleys webbplats](../image/matt_farley_2.png){.report-image}
+
+<!-- <img class="report-image" src= '../assets/img/matt_farley_2.png' alt= "Screenshot från MAtt Farleys webbplats"> -->
 
 Ett exempel på harmonisk balans här är bilderna av genomförda projekt. De är symmetriskt balanserade i ett rutnät. På desktop lägger de sig tre i bredd och på mobil i en kolumn men en kan se att avståndet mellan dem bibehålls och att det finns en underliggande struktur. Harmonin uppnås genom de upprepade formerna i denna struktur - fyrkanter med rundade hörn som återfinns på samma avstånd från varandra. Samtdigt finns här också designprincipen variation i och med att bilderna är olika varandra i färgerna. 
 
-<img class="city-img" src= '../assets/img/matt_farley_3.png' alt= "Screenshot från MAtt Farleys webbplats">
+![Screenshot från Matt Farleys webbplats](../image/matt_farley_3.png){.report-image}
+
+<!-- <img class="city-img" src= '../assets/img/matt_farley_3.png' alt= "Screenshot från MAtt Farleys webbplats"> -->
 
 I övrigt tror jag att mycket av det harmoniska intrycket som webbplatsen ger kommer sig av det i mina ögon konsekventa användadet av rundade hörn och linjer. På denna webbplats används rundade hörn och runda former genomgående för bilder och "knappar". Detta designelement (form) hjälper alltså till att nå designprincipen enhet (unity) på hela webbsidan. 
 
@@ -65,7 +71,9 @@ Detta är en personlig portfolio-sida för en webbdesigner. Syftet är att visa 
 ##### Webbplatsens design
 Denna webbplats gör också ett minimalistiskt intryck på mig. Ett svartvitt fotografi, samt budskapet "Hello. I am Dejan" är det som syns på startsidan. Liksom för förra sidan är det mesta här platt, det finns inte perspektiv och djup på webbplatsen. Svart vitt, grått och rött är de färger som förekommer . Men här finns också en hel del rörelse som ger liv och intresse åt webbplatsen. I mina ögon finns här också en rätt stor portion av kontrast - mer om detta nedan. 
 
-<img class="report-image" src= '../assets/img/dejan_1.png' alt= "Screenshot från Dejans webbplats">
+![Screenshot från Dejans webbplats](../image/dejan_1.png){.report-image}
+
+<!-- <img class="report-image" src= '../assets/img/dejan_1.png' alt= "Screenshot från Dejans webbplats"> -->
 
 ##### Gynnas webbplatsens mål och syfte/vilken känsla ger designen?
 Jag tycker att denna design är intresseväckande och snygg. Jag blev nyfiken på det korta budskapet och ville ta reda på mer, vilket går i linje med syftet med webbplatsen. 
@@ -84,9 +92,11 @@ Liksom för webbplats 1 tycker jag att desingprincipen enhet används här genom
 När det gäller designelement så framtäder de tydligast i formerna på bilderna t.ex. fotografiet på "aboutsidan" - till skillnad från webbplats 1 används här inte rundade former utan bilden är klart fyrkantig. Det mest framträdande elementet är dock färgerna - just i fråga om färg så finns det dock en stor portion av webbplatsen som avviker från resten: nämligen presentationen av projekten (se nästa stycke).
 
 ##### Är designprinciperna olika för olika delar av webbplatsen?
- När jag gick in på ett av projekten som utvecklaren hade arbetat med möttes jag av ett helt annat tema - åtminstone färgmässigt. Här är bakgrundsfärgen vit, texten svart, texterna långa och omfattande, de är också rikligt illustrerade med bilder med skarpa hörn. Det som ger någon slags koppling till resten av webbplatsen är främst att typsnittet verkar vara det samma, samt att bilderna fortsatt inte har rundade hörn. Här finns alltså en stor variation eller kontrast mot resten av webbplatsen.
+När jag gick in på ett av projekten som utvecklaren hade arbetat med möttes jag av ett helt annat tema - åtminstone färgmässigt. Här är bakgrundsfärgen vit, texten svart, texterna långa och omfattande, de är också rikligt illustrerade med bilder med skarpa hörn. Det som ger någon slags koppling till resten av webbplatsen är främst att typsnittet verkar vara det samma, samt att bilderna fortsatt inte har rundade hörn. Här finns alltså en stor variation eller kontrast mot resten av webbplatsen.
 
- <img class="report-image" src= '../assets/img/dejan_2.png' alt= "Screenshot från Dejans webbplats">
+![Screenshot från Dejans webbplats](../image/dejan_2.png){.report-image}
+
+<!-- <img class="report-image" src= '../assets/img/dejan_2.png' alt= "Screenshot från Dejans webbplats"> -->
 
 #### Webbplats 3
 [Rafael Caferati](http://www.caferati.me)  
@@ -97,7 +107,9 @@ Liksom de föregående två webbplatserna är detta en personlig portfolio-sida,
 ##### Webbplatsens design
 Till skillnad från de andra två förekommer på denna webbplats perspektiv och djup främst genom att skuggor används ganska mycket. Här förekommer också fler färger, dock är det fortfarande sparsmakat. Här finns en hel del rörelse och animation - t.ex. skrivs presentationstexten på förstasidan ut när jag landar där. Där finns också en ganska stor röd knapp som startar ett "spel" med en robot som skjuter sönder webbsidan. Sammantaget skulle jag alltså inte vilja kalla denna design för minimalistisk.
 
-<img class="report-image" src= '../assets/img/caferati_1.png' alt= "Screenshot från Caferatis webbplats">
+![Screenshot från Caferatis webbplats](../image/caferati_1.png){.report-image}
+
+<!-- <img class="report-image" src= '../assets/img/caferati_1.png' alt= "Screenshot från Caferatis webbplats"> -->
 
 ##### Gynnas webbplatsens mål och syfte/vilken känsla ger designen?
 Liksom för föregående webbplatser är den personliga presentationen betonad - framlyft tydligt mitt på första sidan. Att ha en tydlig presentation av sig själv bör ju vara huvudsyftet med en sida som denna. Animationen med texten som skrivs ut är ok men spelet med roboten kan vara ett litet risktagande tycker jag. Syftet är säkert att visa färdigheter inom programmering men det kräver ju en målgrupp som imponeras av detta. Jag får en liten "visa upp sig" -känsla som inte är helt tilltalande eftersom den inte är så subtil. 
@@ -107,7 +119,9 @@ Genom sin placering på förstasidan betonas den personliga presentationen även
 
 Liksom för webbplats 1 finner vi designprincipen balans på sidan där projekten presenteras. Här ligger bilder på projekten i ett tvådelat rutnät på desktop och den ena kolumnen speglar den andra. Liksom i fallet med webbplats 1 uppnås harmoni med denna upprepning, samtidig finns även här variation i och med att bilderna har olika färger. Bilderna har här skarpa hörn och därmed finns här fyrkantiga former.
 
-<img class="report-image" src= '../assets/img/caferati_2.png' alt= "Screenshot från Caferatis webbplats">
+![Screenshot från Caferatis webbplats](../image/caferati_2.png){.report-image}
+
+<!-- <img class="report-image" src= '../assets/img/caferati_2.png' alt= "Screenshot från Caferatis webbplats"> -->
 
 Designprincipen rörelse förekommer överallt här: text skrivs ut, knappar animeras m.m. Men den finns också på ett mer subtilt sätt. På varje sidan finns en blå banner i högra hörnet som går diagonalt. Diagonala linjer ger en känsla av rörelse och drar ögat till sig. 
 

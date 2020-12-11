@@ -31,7 +31,7 @@ På pensionsmyndighetens webbplats hittades huvudsakligen följande färger:
     </table>
 Utöver dessa användes också svart och vitt för text på webbplatsen, samt en annan blå nyans för länkarna. Den huvudsakliga bakgrundsfärgen utgjordes av gråvita och beiga färger.
 
-<img class="report-image" src= '../assets/img/pensionsmyndigheten.png' alt= "Screenshot från Pensionsmyndighetens webbplats">
+![Screenshot från Pensionsmyndighetens webbplats](../image/pensionsmyndigheten.png){.report-image}
 
 De orange och gula färgerna befinner sig analogt d.vs. intill varandra på färghjulet, även den lila färgen på "tyck-till-knappen" skulle kunna sägas vara analog då den ligger intill det orange/röda spektrat på färghjulet. Den blå färgen som används för bl.a. logga in knappen skulle kunna sägas vara en komplementärfärg då den återfinns på i stort sett motsatt sida från den orangea färgen i sidans banner. Pensionsmyndigheten använder sig därför enligt min mening av ett komplementärt schema även om den komplementära blå färgen används sparsamt. Jag tycker också att det framgår tydligt att man har utgått från färgen i loggan som synns i headern när webbplatsen har designats. De blå och lila färgerna skulle jag säga utgör accentfärger om man med accentfärg menar en färg som sticker ut och markerar något - det är så de används här.
 
@@ -63,7 +63,10 @@ På Försäkringskassans webbplats hittades följande färger:
    </tr>
     </table>
 
-<img class="report-image" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats">
+![Screenshot från Försäkringskassans webbplats](../image/forsakringskassan.png){.report-image}
+
+
+<!-- <img class="report-image" src= '../assets/img/forsakringskassan.png' alt= "Screenshot från Försäkringskassans webbplats"> -->
 
 De tre gröna nyanserna är dominerande på startsidan. Den blågrå och den "brungula" färgen skulle kunna ses som att de ligger analogt med dessa färger, medan den röda och lila färgen jag fann kan sägas utgöra komplementfärger från motsatta sidan av färghjulet. Dessa färger används sparsamt på startsidan för att dra uppmärksamheten till särskilda ingångar jag skulle därför säga att de utgör accentfärger på webbplatsen. Det finns alltså komplementära färger, så en slutsats som kan dras är att det är ett komplementärt schema. Men vid en koll på Adobes color wheel kan jag tycka att ett kvadratiskt schema också ger ungefär de färger som finns på webbplatsen om en utgår från den gröna färgen som bas. Så jag landar försiktigt i att Försäkringskassan möjligen här faktiskt har utgått från ett kvadratiskt schema. Bedömningen av detta beror ju på hur stor vikt man tillmäter de avvikande accentfärgerna. Det helt dominerande i min mening är ju de analoga gröna färgerna - jag tror att det är de färgerna användaren minns. På liknande sätt som vi såg för Pensionsmyndigheten så används grått och vitt som bakgrundsfärger. Svart och vitt används också för textfärger. För Försäkringskassans del tycker jag också att det är tydligt att man har utgått från loggan, som innehåller grönt och vitt, i färgvalet på webbsidan.
 
@@ -95,7 +98,9 @@ På Skatteverkets webbplats hittades huvudsakligen följande färger:
    </tr>
     </table>
 
-<img class="report-image" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats">
+![Screenshot från Skatteverkets webbplats](../image/skatteverket.png){.report-image}
+
+<!-- <img class="report-image" src= '../assets/img/skatteverket.png' alt= "Screenshot från Skatteverkets webbplats"> -->
 
 De dominerande färgerna på sidan är gult och blått. Det finns olika nyanser av dessa färger. Gult och blått befinner sig  på motsatt sida av färghjulet och därför skulle man här kunna tala om ett komplementärt schema. Liksom för de andra myndigheterna används främst vitt och grått som bakgrundsfärger. Återigen tycker jag att det är tydligt att man har utgått från loggan när färgvalen gjordes. Någon accentfärg som sticker ut var svår att finna på startsidan men jag noterade att man har använt en gul knapp för länken in till "Alla e-tjänster" istället för en vanlig länk. Detta förmodligen för att detta är en ofta besökt ingång som man vill uppmärksamma användarna på.
 
