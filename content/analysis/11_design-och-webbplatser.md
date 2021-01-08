@@ -45,7 +45,7 @@ En annan möjlighet för mobil enligt PageSpeedInsight skulle vara att ladda in 
 Slutligen finns det en del oanvänd CSS som flaggas i mobilanalysen. Här är det återigen CSS-filen som flaggas av PageSpeedInsights. En tänkbar anledning till detta är ju t.ex. att FontAwesomes filer läses in i CSS:en och jag använder bara några få av de ikonerna. 
 
 ##### Diskussion - alternativt tema
-Det alternativa temat får snarlika betyg på PageSpeedInsights. Möjligheterna till förbättring som PageSpeedInsights visar är lika förutom på en punkt: i den mobila analysen flaggas min Hero-bild (som är en annan än i det grundläggande temat). Här menar PageSpeedInsights att ett modernare bildformat skulle kunna snabba upp sidan. Jag har bilder i .jpg format både i det grundläggande och i det alternativa temat men bilden i det alternativa temat är dubbelt så stor i grunden. Det skulle jag gissa är anledningen till att denna bild flaggas här.
+Det alternativa temat får snarlika betyg på PageSpeedInsights. Möjligheterna till förbättring som PageSpeedInsights visar är lika förutom på en punkt: i den mobila analysen flaggas min Hero-bild (som är en annan än i det grundläggande temat). Här menar PageSpeedInsights att ett modernare bildformat skulle kunna snabba upp sidan.
 
 Länk till sidan:  
 [Hem | Bew Gorp](http://www.student.bth.se/~jolf20/dbwebb-kurser/design/me/kmom10/)
